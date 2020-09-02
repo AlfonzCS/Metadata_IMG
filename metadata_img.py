@@ -19,7 +19,7 @@ def ClownLogo():
               /_/  /_/\___/\__/\__,_/\__,_/\__,_/\__/\__,_/  /_/_/ /_/ /_/\__, /  
                                                                          /____/   
 
-            Nota! : Scanning Port es un escaner 100% funcional, verifique con nmap.       
+            CS! : Metadata img es un script que se puede ejecutar en windows y linux.       
     """
     for N, line in enumerate(x.split("\n")):
          sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
